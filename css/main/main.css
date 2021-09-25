@@ -1,0 +1,9 @@
+@import './sec-1.css';
+@import './sec-2.css';
+@import './sec-3.css';
+@import './sec-4.css';
+@import './sec-5.css';
+
+.main {
+    min-height: calc(100vh - 90px);
+}

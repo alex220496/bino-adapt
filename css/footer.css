@@ -22,26 +22,26 @@
     transition: 0.25s ease-in-out;
 }
 .footer__link-1 {
-    background: url(/img/facebook.png) center no-repeat;
+    background: url(../../img/facebook.png) center no-repeat;
 }
 .footer__link-2 {
-    background: url(/img/rss.png) center no-repeat;
+    background: url(../../img/rss.png) center no-repeat;
 }
 .footer__link-3 {
     
-    background: url(/img/google\ plus.png) center no-repeat;
+    background: url(../../img/google\ plus.png) center no-repeat;
 }
 .footer__link-4 {
-    background: url(/img/linkedin.png) center no-repeat;
+    background: url(../../img/linkedin.png) center no-repeat;
 }
 .footer__link-5 {
-    background: url(/img/skype.png) center no-repeat;
+    background: url(../../img/skype.png) center no-repeat;
 }
 .footer__link-6 {
-    background: url(/img/vimeo.png) center no-repeat;
+    background: url(../../img/vimeo.png) center no-repeat;
 }
 .footer__link-7 {
-    background: url(/img/tumblr.png) center no-repeat;
+    background: url(../../img/tumblr.png) center no-repeat;
 }
 
 .footer__desc {
