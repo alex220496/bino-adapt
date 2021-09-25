@@ -1,0 +1,101 @@
+.section-pricing {
+    padding-top: 150px;
+}
+
+.section-pricing__buy {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.section-pricing__part-1 {
+    width: 100%;
+    background-color: #999999;
+    padding-top: 50px;
+    padding-bottom: 135px;
+    display: flex;
+    justify-content: center;
+}
+.section-pricing__title{
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    position: relative;
+}
+.section-pricing__part-2 {
+    background-color: #f4f5f9;
+    flex-direction: column;
+}
+.section-pricing__desc {
+    font-size: 14px;
+    line-height: 40px;
+    color: #999999;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;  
+    padding-top: 120px;
+}
+.section-pricing__button {
+    line-height: 45px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    width: 145px;
+    height: 45px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    background-color: #999999;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.section-pricing__button:hover {
+    transition: 0.2s ease-in-out;
+    font-size: 15px;
+}
+/* price */
+.section-pricing__price-wrapper {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    background-color: #f4f5f985;
+    position: absolute;
+    top: 290%;
+    left: -24%;
+}
+.section-pricing__inner {
+    border-radius: 50%;
+    width: 85%;
+    height: 85%;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+.section-pricing__price {
+    font-size: 39px;
+    line-height: 22px;
+    color: #999999;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+.section-pricing__buy:hover .section-pricing__part-1 {
+    background-color: #e74c3c ;
+    transition: 0.25s ease-in-out;
+}
+.section-pricing__buy:hover .section-pricing__button {
+    background-color: #e74c3c ;
+    transition: 0.25s ease-in-out;
+}
+.section-pricing__price-desc {
+    font-size: 15px;
+    padding-top: 10px;
+    color: #999999;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: center;    
+}
+
+
